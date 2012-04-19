@@ -1,0 +1,18 @@
+Kit:
+    EMA kit
+
+
+File compiled:
+    x-loader/drivers/k9f1g08r0a.c
+    x-loader/drivers/k9f1g08r0a.o is generated
+
+
+Running result:     means Hynix NAND is applied, that is the truth of EMA kit
+    Texas Instruments X-Loader 1.5.0 (Apr 19 2012 - 10:23:49)
+    mfr = 0xad
+    OMAP36XX/37XX-GP ES2.1
+    Reading boot sector
+    Loading u-boot.bin from mmc
+
+Definition in source file:
+    #define MT29F1G_MFR3   0xad  /* Hynix */
